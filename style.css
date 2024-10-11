@@ -1,0 +1,42 @@
+/* RESETS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CF2524;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px ;
+
+}
+
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.texto {
+    margin-left: 10px;
+}
+
+.centro {
+    align-items: center;
+}
+
+.garrafa {
+    position: absolute;
+    top: 15.5%;
+    left: 43%;
+}
+
+.fundoCoca {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
